@@ -4,7 +4,7 @@ class Navbar extends Component {
 	render() {
 		return (
 			<div className='navbar bg-light'>
-				<h4>Navbar</h4>
+				<h4>{this.props.title}</h4>
 			</div>
 		);
 	}
